@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A scaffolding template for a Ruby on Rails application, that utilises React as the View layer, with Apollo and GraphQL as the API layer, and Postgres as the database.
 
-Things you may want to cover:
+## Why?
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Well it was a real pain to get this setup working, so once I got it done, I wanted to save myself the hassle od doing it again, clone away.
