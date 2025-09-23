@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@apollo/client": "^4.0.5",
+    "graphql": "^16.11.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vite-plugin-ruby": "^5.1.0"
+  }
+}
