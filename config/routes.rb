@@ -15,4 +15,12 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # Catch-all route for React Router frontend
+  get "/*path", to: "frontend#index", constraints: ->(req) {
+    !req.path.starts_with?("/rails") &&
+    !req.path.starts_with?("/graphql") &&
+    !req.path.starts_with?("/graphiql") &&
+    !req.path.starts_with?("/up")
+  }
 end
